@@ -2,6 +2,8 @@ function handleSubmit(){
   $('.submit').on('click', '.submitButton', function(e){
     e.preventDefault();
     console.log('click');
+    //clear previous search results
+   $('#results').html('');
     search();
     document.getElementById('search').reset();
     
