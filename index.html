@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header role="banner">
+      <h1>Search You<span class="tube">Tube</span> Videos</h1>
+    </header>
+    <section role="section">
+      <form id=search role="form">
+        <label class="searchbar">
+          <input class="query" type="text" placeholder="Funny Cat Videos">
+        </label>
+        <label class="submit">
+          <button class="submitButton">Search</button>
+        </label>
+      </form>
+    </section>
+    <section class="js-search-results" role="section">
+      <h2>Results:</h2>
+      <div id="container">
+        <ul id="results">
+          
+        </ul>
+        
+      </div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
