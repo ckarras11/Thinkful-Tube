@@ -18,7 +18,7 @@ function renderPage(item){
 
   let output = `<li>
                 ${title} <br>
-                <a href="https://www.youtube.com/watch?v=${videoId}"><img src="${thumb}"</a>
+                <a href="https://www.youtube.com/watch?v=${videoId}"><img src="${thumb}" alt="${title}"></a>
                 </li>`
   return output;
 }
